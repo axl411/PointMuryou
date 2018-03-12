@@ -1,3 +1,3 @@
 # PointMuryou
 
-A description of this package.
+Functional swift utils from [PointFree](https://www.pointfree.co/).
