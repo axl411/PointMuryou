@@ -55,7 +55,7 @@ public func >=> <A, B, C>(
     }
 }
 
-// MARK: - j
+// MARK: - 0003-styling-with-functions
 
 precedencegroup SingleTypeComposition {
     associativity: right
@@ -91,3 +91,14 @@ public func <> <A: AnyObject>(
     }
 }
 
+// MARK: - 0004-algebraic-data-types/
+
+public struct Pair<A, B> {
+    let first: A
+    let second: B
+}
+
+public enum Either<A, B> {
+    case left(A)
+    case right(B)
+}
